@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="عرض نتائج الطلاب وتصفيتها حسب الصف. سيتم تحديث هذه الصفحة بالنتائج الفعلية في المستقبل.">
+    <title>نتائج الطلاب</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <input type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
+    <label for="dark-mode-toggle">تبديل الوضع الداكن</label>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">سماحي عبد الحق</span> أستاذة فيزياء</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">الرئيسية</a></li>
+                    <li><a href="./lessons.html">الدروس</a></li>
+                    <li><a href="./exercises.html">التمارين</a></li>
+                    <li><a href="./videos.html">الفيديوهات</a></li>
+                    <li><a href="./curriculum.html">المنهاج</a></li>
+                    <li><a href="./experiments.html">التجارب</a></li>
+                    <li><a href="./results.html" class="current">النتائج</a></li>
+                    <li><a href="./top_students.html">الطلاب المتفوقون</a></li>
+                    <li><a href="./cv.html">السيرة الذاتية</a></li>
+                    <li><a href="./forum.html">المنتدى</a></li>
+                    <li><a href="./contact.html">اتصل بنا</a></li>
+                    <li><a href="./about.html">عني</a></li>
+                    <li><a href="./feedback.html">الملاحظات</a></li>
+                    <li><a href="./resources.html">المصادر</a></li>
+                    <li><a href="./schedule.html">الجدول الزمني</a></li>
+                    <li><a href="./faq.html">الأسئلة الشائعة</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switcher">
+                <a href="../en/results.html">EN</a>
+                <a href="../fr/results.html">FR</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="main-content results-section">
+            <h2>نتائج الطلاب</h2>
+            <p>سيتم تحديث هذا القسم قريبا بنتائج الطلاب. يرجى التحقق لاحقا!</p>
+
+            <div class="filter-section">
+                <label for="grade-filter">تصفية حسب الصف:</label>
+                <select id="grade-filter" name="grade-filter">
+                    <option value="all">جميع الصفوف</option>
+                    <option value="grade1">الصف الأول</option>
+                    <option value="grade2">الصف الثاني</option>
+                    <option value="grade3">الصف الثالث</option>
+                </select>
+            </div>
+
+            <!-- Placeholder for results table/list -->
+            <div class="results-placeholder">
+                <p>ستعرض النتائج هنا.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 سماحي عبد الحق - جميع الحقوق محفوظة.</p>
+            <ul>
+                <li><a href="./index.html">الرئيسية</a></li>
+                <li><a href="./lessons.html">الدروس</a></li>
+                <li><a href="./exercises.html">التمارين</a></li>
+                <li><a href="./videos.html">الفيديوهات</a></li>
+                <li><a href="./curriculum.html">المنهاج</a></li>
+                <li><a href="./experiments.html">التجارب</a></li>
+                <li><a href="./results.html">النتائج</a></li>
+                <li><a href="./top_students.html">الطلاب المتفوقون</a></li>
+                <li><a href="./cv.html">السيرة الذاتية</a></li>
+                <li><a href="./forum.html">المنتدى</a></li>
+                <li><a href="./contact.html">اتصل بنا</a></li>
+                <li><a href="./about.html">عني</a></li>
+                <li><a href="./feedback.html">الملاحظات</a></li>
+                <li><a href="./resources.html">المصادر</a></li>
+                <li><a href="./schedule.html">الجدول الزمني</a></li>
+                <li><a href="./faq.html">الأسئلة الشائعة</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
