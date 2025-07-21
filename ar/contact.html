@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تواصل مع سماحي عبد الحق، أستاذة الفيزياء. ابحث عن روابط البريد الإلكتروني ووسائل التواصل الاجتماعي، أو أرسل رسالة مباشرة.">
+    <title>اتصل بنا - سماحي عبد الحق</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <input type="checkbox" id="dark-mode-toggle" class="dark-mode-toggle">
+    <label for="dark-mode-toggle">تبديل الوضع الداكن</label>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">سماحي عبد الحق</span> أستاذة فيزياء</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">الرئيسية</a></li>
+                    <li><a href="./lessons.html">الدروس</a></li>
+                    <li><a href="./exercises.html">التمارين</a></li>
+                    <li><a href="./videos.html">الفيديوهات</a></li>
+                    <li><a href="./curriculum.html">المنهاج</a></li>
+                    <li><a href="./experiments.html">التجارب</a></li>
+                    <li><a href="./results.html">النتائج</a></li>
+                    <li><a href="./top_students.html">الطلاب المتفوقون</a></li>
+                    <li><a href="./cv.html">السيرة الذاتية</a></li>
+                    <li><a href="./forum.html">المنتدى</a></li>
+                    <li><a href="./contact.html" class="current">اتصل بنا</a></li>
+                    <li><a href="./about.html">عني</a></li>
+                    <li><a href="./feedback.html">الملاحظات</a></li>
+                    <li><a href="./resources.html">المصادر</a></li>
+                    <li><a href="./schedule.html">الجدول الزمني</a></li>
+                    <li><a href="./faq.html">الأسئلة الشائعة</a></li>
+                    <li><a href="./gallery.html">المعرض</a></li>
+                    <li><a href="./timeline.html">الجدول الزمني</a></li>
+                    <li><a href="./books.html">الكتب</a></li>
+                    <li><a href="./announcements.html">الإعلانات</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switcher">
+                <a href="../en/contact.html">EN</a>
+                <a href="../fr/contact.html">FR</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="main-content contact-info">
+            <h2>اتصل بي</h2>
+            <p><i class="fas fa-envelope icon"></i> البريد الإلكتروني: <a href="mailto:smahiabdelhak1994@gmail.com">smahiabdelhak1994@gmail.com</a></p>
+            <p><i class="fab fa-facebook icon"></i> فيسبوك: <a href="https://www.facebook.com/smahi.abdelhak.2025" target="_blank">سماحي عبد الحق</a></p>
+
+            <div class="feedback-form">
+                <h3>أرسل رسالة</h3>
+                <form action="#" method="post" onsubmit="document.getElementById('thankYouMessage').style.display='block'; return false;">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">إرسال الرسالة</button>
+                </form>
+                <div id="thankYouMessage" class="thank-you-message">
+                    شكراً لرسالتك! سنتواصل معك قريباً.
+                </div>
+            </div>
+            <p><a href="./index.html">العودة إلى الرئيسية</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 سماحي عبد الحق - جميع الحقوق محفوظة.</p>
+            <ul>
+                <li><a href="./index.html">الرئيسية</a></li>
+                <li><a href="./lessons.html">الدروس</a></li>
+                <li><a href="./exercises.html">التمارين</a></li>
+                <li><a href="./videos.html">الفيديوهات</a></li>
+                <li><a href="./curriculum.html">المنهاج</a></li>
+                <li><a href="./experiments.html">التجارب</a></li>
+                <li><a href="./results.html">النتائج</a></li>
+                <li><a href="./top_students.html">الطلاب المتفوقون</a></li>
+                <li><a href="./cv.html">السيرة الذاتية</a></li>
+                <li><a href="./forum.html">المنتدى</a></li>
+                <li><a href="./contact.html">اتصل بنا</a></li>
+                <li><a href="./about.html">عني</a></li>
+                <li><a href="./feedback.html">الملاحظات</a></li>
+                <li><a href="./resources.html">المصادر</a></li>
+                <li><a href="./schedule.html">الجدول الزمني</a></li>
+                <li><a href="./faq.html">الأسئلة الشائعة</a></li>
+            </ul>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="scroll-to-top" title="العودة للأعلى"><i class="fas fa-arrow-up"></i></button>
+    <script src="../../assets/js/ux.js"></script>
+</body>
+</html>
